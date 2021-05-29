@@ -14,3 +14,102 @@ a {
 * {
   box-sizing: border-box;
 }
+
+::placeholder {
+  opacity: 0.5;
+}
+
+:-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+::-ms-input-placeholder {
+  opacity: 0.5;
+}
+.background-grey {
+  background: #f2f2f2;
+}
+.landing-page-text {
+  font-size: 2.7rem;
+  font-weight: 300;
+}
+.landing-div-top {
+  margin-top: 11.5rem;
+}
+.container-main {
+  margin: 0rem 5% 0rem 8%;
+}
+
+.landing-image-container {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.input-size {
+  width: 11.2rem;
+  border: 0.2rem solid #dbdbdb;
+  outline: 0;
+  font-size: 1.1rem;
+}
+.form-input {
+  border: 0.15rem solid #dbdbdb;
+  outline: 0;
+  border-radius: 0.2rem;
+}
+.your-landing-heading {
+  width: 80%;
+  color: #5a5a5a;
+  font-weight: 350;
+
+  font-size: 2.8rem;
+}
+.your-landing-content {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #a5b5b5;
+}
+.horizontal-line {
+  border-top: 0.2rem solid #8c8b8b;
+}
+.image-size {
+  width: 9rem;
+  height: 9rem;
+}
+
+.avtar {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+}
+.text-light-grey {
+  color: #9fb1b2;
+}
+.margin-right {
+  margin-right: 6rem;
+}
+.nav-flatty-text {
+  font-size: 1.2rem;
+  font-weight: 480;
+}
+.nav-member-text {
+  font-weight: 300;
+  opacity: 0.7;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 767px) {
+  .your-landing-heading {
+    font-size: 2rem;
+  }
+  .your-landing-content {
+    font-size: 1.1rem;
+  }
+  .input-size {
+    width: 10.5rem;
+  }
+  .margin-right {
+    margin-right: 0rem;
+  }
+}
