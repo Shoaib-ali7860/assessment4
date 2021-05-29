@@ -31,10 +31,11 @@ a {
 }
 .landing-page-text {
   font-size: 2.7rem;
+  line-height: 2.8rem;
   font-weight: 300;
 }
 .landing-div-top {
-  margin-top: 11.5rem;
+  margin-top: 10rem;
 }
 .container-main {
   margin: 0rem 5% 0rem 8%;
@@ -45,10 +46,11 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-image: url('/landing-image0.png');
 }
 .input-size {
   width: 11.2rem;
-  border: 0.2rem solid #dbdbdb;
+  border: 0.1rem solid #dbdbdb;
   outline: 0;
   font-size: 1.1rem;
 }
@@ -61,12 +63,13 @@ a {
   width: 80%;
   color: #5a5a5a;
   font-weight: 350;
-
+  line-height: 3rem;
   font-size: 2.8rem;
 }
 .your-landing-content {
   width: 100%;
   font-size: 1.5rem;
+  line-heeight: 1.6rem;
   font-weight: 600;
   color: #a5b5b5;
 }
@@ -102,6 +105,7 @@ a {
 @media screen and (max-width: 767px) {
   .your-landing-heading {
     font-size: 2rem;
+    line-height: 2.1rem;
   }
   .your-landing-content {
     font-size: 1.1rem;

@@ -11,8 +11,8 @@ export default function Home() {
       </Head>
       <div className="background-grey">
         <section>
-          <div className="landing-image-container  "   style={{backgroundImage: `url(${'/landing-image0.png'})`}}>
-             <div className=" ml-md-5">
+          <div className="landing-image-container  "  >
+             <div className=" ml-md-4">
                  <div className=" pt-2 mr-md-5 mr-3 offset-1" >
                 <div className="text-white d-flex justify-content-between margin-right "> 
                   <p className="nav-flatty-text">FLATTY</p>
@@ -37,7 +37,7 @@ export default function Home() {
         </section>
         <section className="container-fluid" >
               <div className="mt-5 row  m-0 ">
-                  <div className="text-center mx-auto col-xl-5 col-md-10 "  >
+                  <div className="text-center mx-auto col-xl-6 col-md-10 "  >
                     <p  className=" your-landing-heading mx-auto">Your Landing Page Looks Wonderful Now.</p>
                     <p className=" your-landing-content  mx-auto" >   it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                     </p>
@@ -79,7 +79,7 @@ export default function Home() {
                        </div>
                        <hr className="horizontal-line "/>
                        <div className="d-flex justify-content-center">
-                         <input type="text"  placeHolder="Enter your email address " className="input-size rounded p-1 " />
+                         <input type="text"  placeholder="Enter your email address " className="input-size rounded p-1 " />
                          <button className="btn btn-warning rounded ml-1 text-white ">Invite Me!</button>
                     </div>
                     <hr className="horizontal-line "/>
@@ -99,7 +99,7 @@ export default function Home() {
                        </div>
                        <hr className="horizontal-line "/>
                        <div className="d-flex justify-content-center">
-                         <input type="text"  placeHolder="Enter your email address " className="input-size rounded p-1 " />
+                         <input type="text"  placeholder="Enter your email address " className="input-size rounded p-1 " />
                          <button className="btn btn-warning rounded ml-1 text-white ">Invite Me!</button>
                     </div>
                     <hr className="horizontal-line "/>
@@ -107,7 +107,7 @@ export default function Home() {
                     
                    <section>
               <div className="mt-5 row  m-0 ">
-                           <div className="mx-auto col-xl-5 col-md-10 text-center  "  >
+                           <div className="mx-auto col-xl-6 col-md-10 text-center  "  >
                                <p  className=" your-landing-heading mx-auto">Our Awesome Team Design Lovers.</p>
                                <p className=" your-landing-content  mx-auto" >   it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                                 </p>
@@ -162,7 +162,7 @@ export default function Home() {
                        </div>
                        <hr className="horizontal-line "/>
                        <div className="d-flex justify-content-center">
-                         <input type="text"  placeHolder="Enter your email address " className="input-size rounded p-1 " />
+                         <input type="text"  placeholder="Enter your email address " className="input-size rounded p-1 " />
                          <button className="btn btn-warning rounded ml-1 text-white ">Invite Me!</button>
                     </div>
                   
@@ -171,7 +171,7 @@ export default function Home() {
                    <section>
                      <div className=" text-center pt-5 mt-5">
                              <p className="your-landing-heading text-center  mx-auto m-0">Contact us</p>
-                           <div className="row m-0 mt-0  ">
+                           <div className="row m-0 mt-3  ">
                            <form className="col-md-7  mx-auto ">
                                <input placeholder="Your Name"  className="w-100 form-input mt-0 p-2 "/>
                                <input placeholder="Your Email"  className="w-100 form-input mt-3 p-2"/>
