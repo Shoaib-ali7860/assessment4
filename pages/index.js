@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 import TelegramIcon from '@material-ui/icons/Telegram';
-import PublicIcon from '@material-ui/icons/Public';
+import PublicIcon from '@material-ui/icons/Public'
+import Navbar from './layout'
 export default function Home() {
   return (
     <div>
@@ -9,7 +10,9 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar>
       <div className="background-grey">
+    
         <section>
           <div className="landing-image-container  "  >
              <div className=" ml-md-4">
@@ -188,6 +191,7 @@ export default function Home() {
         </section>
        
       </div>
+      </Navbar>
     </div>
   )
 }
